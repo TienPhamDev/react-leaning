@@ -1,4 +1,5 @@
 'use client'
+import {useState} from "react";
 export default function LikeButton() {
   const [likes,setLikes] = React.useState(0)
   function handleClick() {
