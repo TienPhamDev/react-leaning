@@ -18,6 +18,11 @@
         }
         function Homepage(){
             const names =["tien","pham","trs"]
+            const [likes,setLikes] = React.useState(0)
+            function handleClick() {
+                setLikes(likes + 1)
+            }
+
             return (
                 <div>
                     <Header title="React"/>
@@ -28,6 +33,7 @@
                                 })
                         }
                     </ul>
+                    <button onClick={handleClick}>Like{likes}</button>
                 </div>
             )
         }
