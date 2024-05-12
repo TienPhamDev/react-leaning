@@ -1,28 +1,21 @@
-import { useState } from 'react';
-        function Header({title}){
-            
-            return <h1>{title}</h1>
-        }
-        function Homepage(){
-            const names =["tien","pham","trs"]
-            
 
-            return (
-                <div>
-                    <Header title="React"/>
-                    <ul>
-                        {
-                            names.map((e) => {
-                                return <li key ={e} >{e}</li>
-                                })
-                        }
-                    </ul>
-                    
-                </div>
-            )
-        }
+function Header({title}){
+            
+        return <h1>{title}</h1>
+    }
 export default function HomePage(){
-    
+    const names =["tien","pham","trs"]        
+    return (
+        <div>
+            <Header title="React"/>
+            <ul>
+            {
+                    names.map((e) => {
+                        return <li key ={e} >{e}</li>
+                        })
+                }
+            </ul>
+            
+        </div>
+    )
 }
-const root = ReactDOM.createRoot(app)
-root.render(<Homepage />)
