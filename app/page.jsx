@@ -5,10 +5,7 @@ import { useState } from 'react';
         }
         function Homepage(){
             const names =["tien","pham","trs"]
-            const [likes,setLikes] = React.useState(0)
-            function handleClick() {
-                setLikes(likes + 1)
-            }
+            
 
             return (
                 <div>
@@ -20,7 +17,7 @@ import { useState } from 'react';
                                 })
                         }
                     </ul>
-                    <button onClick={handleClick}>Like{likes}</button>
+                    
                 </div>
             )
         }
