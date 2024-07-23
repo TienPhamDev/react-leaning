@@ -1,4 +1,4 @@
-// File: /Users/tientrang/Documents/GitHub/react-leaning/app/page.jsx
+// File: C:\Users\isaac\OneDrive\Documents\GitHub\react-leaning\app\page.jsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

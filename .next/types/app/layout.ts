@@ -1,4 +1,4 @@
-// File: /Users/tientrang/Documents/GitHub/react-leaning/app/layout.js
+// File: C:\Users\isaac\OneDrive\Documents\GitHub\react-leaning\app\layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
